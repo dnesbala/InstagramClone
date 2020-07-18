@@ -1,0 +1,17 @@
+.modal__body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__body img {
+  object-fit: contain;
+}
+
+.action__button {
+  margin-right: 1rem !important;
+}
+
+.modal__actionbutton {
+  margin-top: 1rem !important;
+}

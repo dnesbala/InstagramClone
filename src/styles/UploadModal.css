@@ -1,0 +1,9 @@
+.modal__body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__body img {
+  object-fit: contain;
+}

@@ -1,0 +1,7 @@
+.imageuploader {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 2rem auto;
+  align-items: center;
+}

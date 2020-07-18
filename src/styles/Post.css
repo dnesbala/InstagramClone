@@ -1,0 +1,71 @@
+.post {
+  border: 1px solid lightgray;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+}
+
+.post__avatar {
+  margin-right: 0.4rem;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+}
+
+.post img {
+  object-fit: contain;
+  max-width: 500px;
+  margin: 0.7rem 0;
+}
+
+.post__actions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.post__caption {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.5rem;
+}
+
+.post__addcomments form {
+  display: flex;
+  margin-top: 1rem;
+  border-top: 1px solid lightgray;
+}
+
+.post__addcomments input {
+  flex: 1;
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.post__addcomments button {
+  color: #50ace9;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.post__addcomments button:disabled {
+  color: #8bcaf5;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 550px) {
+  .post {
+    max-width: 300px;
+  }
+  .post img {
+    max-width: 300px;
+  }
+}
