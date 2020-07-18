@@ -9,7 +9,7 @@ It uses the core React.js with the following features of firebase :
 
 ###### Live Demo : https://reactinstagram.web.app/
 
-Clone the repo and type below commands to get started...
+Clone the repo, paste your firebase config in firebase.js file and type below commands to get started...
 
 ```
 npm install
